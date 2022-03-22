@@ -23,6 +23,7 @@ body{
     line-height: 1.5;
     font-weight: normal;
     color: #000;
+    overflow: hidden;
 }
 
 /* 1200px / 16px = 75em */
@@ -94,6 +95,10 @@ nav{
   justify-content: space-between;
   padding: 0 40px;
 }
+nav img{
+  width: 50px;height: 50px;
+  margin-top: -6px;
+}
 .navbar1{
     background: rgb(255, 255, 255);
     position: fixed;
@@ -125,7 +130,7 @@ nav{
   font-size: 12px;font-weight: bold;
 }
 .form-con{
-  margin-left: 50px;display: flex;
+  margin-left: 20px;display: flex;
   background-color: #f8fafb;height: 36px;
   border-radius: 5px;margin-top: -3px;
 }
@@ -143,7 +148,7 @@ input ::placeholder{
   line-height: 18px;color: #A1ABBA;
 }
 .date{
-  display: flex;margin: auto auto;
+  display: flex;margin: -3px 10px;
   width: 110.41px;height: 36px; 
   border: 1px solid rgb(225, 230, 234);
   padding: 6px 12px; border-radius: 4px;
@@ -325,8 +330,8 @@ padding: 15px;
   margin-left: 766px;
   margin-top: 0;
 }
-.customer-div{
-  display: flex;margin-top: 25px;
+.customer-div{z-index: 3;
+  display: flex;margin-top: 25px;height: ;
   max-width: 530px;margin-left: 30px;
   background-color: rgb(255, 255, 255);padding: 10px;
 }
@@ -340,7 +345,12 @@ padding: 15px;
   font-size: 20px;
   font-weight: 300;
   transition: color .2s ease;
-  margin-left:25px ;
+  margin-left:25px;
+  
+}
+.scrol-div{
+  overflow-y: scroll;
+  z-index: 1;height: 500px;
 }
 .customer-div p:hover{
   border: 1px solid rgb(225, 230, 234);
@@ -388,7 +398,147 @@ padding: 15px;
   background-color: rgb(255, 255, 255);padding: 10px;
 }
 .tag{
-  width: 60px;height: 26px;
+  width: 70px;height: 30px;
   background-color: rgb(255, 255, 255);
-  border-radius: 3px;
+  border-radius: 3px;margin-left: 23px;
+  border: 1px solid #a1abb4;
+}.tag:hover{background-color: #d5dce4;}
+.ta{color: #bcc4cc;width: 16px;
+  height: 16px}
+.tag i{
+  font-size: 20px;
+  margin: 3px 0;
 }
+.tag p{font-size: 14px;font-weight: bold;
+  color: #838c96;margin: auto 0;
+}
+.line-div{
+  margin: 20px auto;
+  width: 520px;height: 1px;
+  background-color: green;
+}
+.sub-p p{
+  transition: .2s ease;
+  color: rgb(32, 36, 40);
+      font-size: 14px;
+      line-height: 24px;
+      max-width: 70em;  
+      background-color: #E2effd;
+}
+.sub-p{
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 450px;
+}
+.attach-div{
+  display: flex;
+  margin-left: 40px;margin-top: 110px;
+}
+
+.attach-div i{
+  color: #A1ABB4;font-size: 25px;
+}
+.attach-div i:hover{color: #4da6ff;}
+.attach-div p:hover{color: #4da6ff;}
+.attach-div p{
+  margin-left: 20px;
+  margin-top: 4px;
+  color: #a1abb4;
+  font-size:12px;
+}
+.comment-div{display: flex;
+  margin: 0 auto;padding: 5px;
+  width: 300px;height: 40px;
+  background-color: #f2f5f7;
+    font-size: 14px;border-radius: 30px;
+}
+.com{display: flex;
+  width: 150px;height: 30px;
+  background-color: #ffffff;
+   border-radius: 30px;padding: 5px;
+}
+.com i{
+  font-weight: bold;color: #4da6ff;
+  font-size: 20px;margin-left: 10px;
+}
+.com h4{color: #4da6ff;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.circ{font-size: 20px;color: #a1abb4;
+margin-top: 5px;margin-left: 25px;}
+.circe{
+  margin-top: 5px;margin-left: 10px;font-weight: bold;
+  color: #a1abb4;
+}
+footer{position: fixed;
+  bottom: 0;z-index: 3;
+  display: flex;border: 1px solid rgb(225, 230, 234);
+  height: 70px;width: 600px;
+  background-color: #f2f5f7;overflow-y: hidden;
+}
+footer img{
+  width: 30px;height: 30px;
+  border-radius: 50%;
+  margin: auto 30px;
+}
+.oj{
+  margin: auto 0;
+  font-size: 14px;
+  font-family: 'proxima';
+  font-weight: bold;
+}
+.follow{
+  width: 80px;height: 30px;
+  margin: auto  10px;
+  border-radius: 4px;
+    border: 1px solid rgb(225, 230, 234);
+    color: rgb(131, 140, 150);margin-left: 10px;
+}
+.follow p{
+  font-size: 12px;
+  text-align: center;
+  margin-top:5px;
+  }
+  .one{
+    display: flex;
+    gap: 5px;margin: auto 10px;
+  }
+  .one i{
+    font-size: 20px;
+    color: #a1abb4;
+  }
+  .one p{margin-top: 3px;
+    font-size: 14px;
+    color: #a1abb4;
+  }
+  .unp{display: flex;
+    width: 150px;height: 30px;
+  margin: auto  10px;
+  border-radius: 4px;
+    border: 1px solid rgb(225, 230, 234);
+    color: rgb(131, 140, 150);margin-left: 100px;
+  }
+  .unp i{
+    color: red;
+    font-size: 20px;font-weight: bold;
+    margin: auto 10px;
+  }
+  .unp p{margin-top: 5px;
+    font-size: 14px;
+    color: #a1abb4;
+  }
+  .write{
+    display: flex;margin-top: 50px;
+    margin-left: 30px;margin-bottom: 350px;
+  }
+  .write i{
+    font-size: 20px;
+    color: #a1abb4;
+    margin: auto 10px;
+  }
+  .write input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #a1abb4;
+  }

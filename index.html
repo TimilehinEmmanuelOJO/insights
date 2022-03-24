@@ -3,22 +3,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Insights</title>
+
 </head>
 <body>
     <!--Navbar-->
     <nav>
-        <div class="navbar1">
-            <ul style="display: flex;">
-                <img src="Screenshot 2022-03-22 123718.png" alt="">
-                <li><h1>Insights</h1></li>
-                <li style="display: flex; margin-top: 0;"><i style="margin-top: 6px; font-size: 20px;" class="bi bi-filter"></i><H3>FILTER</H3></li>
-            </ul>
-            <div class="form-con">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <form action=""><input type="search" placeholder="Search notes..." name="" id=""></form>
+        <img src="Screenshot 2022-03-22 123718.png" alt="">
+        
+            <h1>Insights</h1>
+            <div class="filter-class">
+                <div class="filt">
+                    <i class="bi bi-filter"></i><H3>FILTER</H3>
+                </div>
+                <div class="form-con">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <form action=""><input type="search" placeholder="Search notes..." name="" id=""></form>
+                </div>
             </div>
             <div class="date">
                 <i class="fa-regular fa-calendar"></i>
@@ -26,6 +29,29 @@
             </div>
         </div>
     </nav>
+    <div class="navs">
+        <div class="navee">
+            <div class="im">
+                <img src="Screenshot 2022-03-22 123718.png" alt="">
+            <h1>Insights</h1>
+            </div>
+            <div onclick="myMenu()"><i class="fa-solid fa-align-justify"></i></div>
+        </div>
+        <div class="shift">
+            <div class="dropd" id="drop">
+                <i style="margin-top: 6px; font-size: 20px;color: black;" class="fa-solid fa-bars-filter"></i><H3>FILTER</H3>
+                    
+                    <div class="form-con">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search notes..." name="" id="">
+                    </div>
+                    <div class="date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <h5>Any time</h5>
+                    </div>
+            </div>
+        </div>
+    </div>
     <div id="place">
         <div class="sidebar">
             <div class="top-side">
@@ -298,8 +324,265 @@
                         <p>Customer call - Do you guys have an extimate for  ...</p>
                     </div>
                 </div>
+            </div>  
+        </div>
+        <div class="main-div1">
+            <div class="top-main-div">
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Assigned to me</p></div>
+                    <p style="margin-left: 75px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-x"></i><p>Unassigned</p></div>
+                    <p style="margin-left: 100px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Unprocessed</p></div>
+                    <p style="margin-left: 90px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Following</p></div>
+                    <p style="margin-left: 115px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex" style="color: #4da6ff;"><i class="bi bi-folder2"></i><p>All notes</p></div>
+                    <p style="margin-left: 122px; color: #4da6ff;">7</p>
+                </div>
+                <div class="tags"><p> TAGS<i style="margin-left: 5px;" class="bi bi-caret-right-fill"></i></p><i style="margin-left:155px;" class="bi bi-three-dots"></i></div>
+               <div class="more-circle">
+                    <i  class="bi bi-plus"></i>
+               </div>
             </div>
-            
+            <div class="bottom-main-div">
+                <p class="sp">THIS MONTH</p>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="nike.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Nike</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 27px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Interview - <span> Do you have a timeline for submitting </span>  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="att.jpg" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">AT&T</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 24px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Improved author experience would  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="apple.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Apple</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 20px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p><3 Zlack!!! - Hi Zlack tean, loving the product so far  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="pied.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: bold; color: #202428;">PiedPiper</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <span style=" font-size:12px ;margin-left: 15px; margin-top: 5px;">User3</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 3px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot" style="color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="tiff.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428; font-weight: bold;">CompanyA</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: -10px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+            </div>  
         </div>
         <div class="sub-div">
             <div class="customer-div">
@@ -312,7 +595,7 @@
                 <i class="bi bi-three-dots i3"></i>
                 <i></i>
             </div>
-           <div class="scrol-div">
+            <div class="scrol-div">
                 <div class="user-div">
                 <i class="bi bi-person bibi"></i>
                 <img src="microsoft.png" alt="">
@@ -355,25 +638,97 @@
                     <input type="text" placeholder="Write a comment">
                 </div>
             
-           </div>
-           <footer>
+            </div>
+            <footer>
                <img src="IMG_3969.jpg" alt="">
                <p class="oj">ojo</p>
                <div class="follow">
                    <p>FOLLOW</p>
                </div>
                <div class="one">
-                <i class="bi bi-wifi-2"></i>
-                <p>0</p>
+                    <i class="bi bi-wifi-2"></i>
+                    <p>0</p>
                </div>
                <div class="unp">
-                <i class="bi bi-arrow-repeat"></i>
-                <p>UNPROCESS</p>
+                    <i class="bi bi-arrow-repeat"></i>
+                    <p>UNPROCESS</p>
                </div>
-           </footer>
+            </footer>
+        </div>
+        <div class="sub-div1">
+            <div class="customer-div">
+                <i class="bi bi-calendar2-minus i2"></i>
+                <p>Customer call</p>
+                <div class="iup">
+                    <i style="margin-top: 2px;" class="bi bi-caret-down-fill"></i>
+                    <i style="margin-bottom: 2px;" class="bi bi-caret-up-fill"></i>
+                </div>
+                <i class="bi bi-three-dots i3"></i>
+                <i></i>
+            </div>
+            <div class="scrol-div">
+                <div class="user-div">
+                <i class="bi bi-person bibi"></i>
+                <img src="microsoft.png" alt="">
+                <p>Microsoft</p>
+                <i class="bi bi-plus-circle-fill plus"></i>
+                <p class="add">add user</p>
+                </div>
+                <div class="tag-div">
+                    <i class="bi bi-tag-fill ta"></i>
+                    <div class="tag" style="display: flex;">
+                        <i class="bi bi-plus"></i>
+                        <p>TAGS</p>
+                    </div>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="sub-p">
+                    <p>
+                        Do you guys have an estimate for how long we'll have to wait for these <br>
+                        two-factor authentication? I'm getting some pressure from our head of IT <br>
+                        who's pushing to switch to one of your competitors.
+                    </p>
+                </div>
+                <div class="attach-div">
+                    <i class="bi bi-paperclip"></i>
+                    <p>ADD ATTACHMENT</p>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="comment-div">
+                    <div class="com">
+                        <i class="bi bi-chat"></i>
+                        <h4>Comments</h4>
+                    </div>
+                    <i class="bi bi-info-circle circ"></i>
+                    <h4 class="circe">History</h4>
+                </div>
+                <div class="write">
+                    <i class="bi bi-chat"></i>
+                    <input type="text" placeholder="Write a comment">
+                </div>
+            
+            </div>
+            <footer>
+               <img src="IMG_3969.jpg" alt="">
+               <p class="oj">ojo</p>
+               <div class="follow">
+                   <p>FOLLOW</p>
+               </div>
+               <div class="one">
+                    <i class="bi bi-wifi-2"></i>
+                    <p>0</p>
+               </div>
+               <div class="unp">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <p>UNPROCESS</p>
+               </div>
+            </footer>
         </div>
     </div>
 
+    <script src="index.js"></script>
 </body>
 </html>
 

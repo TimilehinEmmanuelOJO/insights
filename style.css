@@ -587,6 +587,7 @@ padding: 15px;
 
 
 /*Sub Div*/
+.sub-div1{display: none;}
 .sub-div{
   width: 600px;display: flex;flex-direction: column;
   height: 590px;background-color: #ffffff; 
@@ -945,28 +946,20 @@ footer img{
     }
     .customer-div{z-index: 3;
       display: flex;margin-top: 50px;height: ;
-      max-width: 530px;margin-left: 30px;
+      max-width: 530px;margin-left: 20px;
       background-color: rgb(255, 255, 255);padding: 10px;
     }
     .iup{
       display: flex;flex-direction: column;
-      margin-left: 10px; color: #e1e6ea;
+      margin-left: -120px; color: #000000;
     }
     .customer-div p{
       width: 400px; font-family: "proxima";
-      color: #202428;
-      font-size: 20px;
-      font-weight: 300;
-      transition: color .2s ease;
-      margin-left:25px;
-    }
+      font-size: 18px;
+      }
     .scrol-div{
       overflow-y: scroll;
       z-index: 1;height: 500px;
-    }
-    .customer-div p:hover{
-      border: 1px solid rgb(225, 230, 234);
-      border-radius: 3px;
     }
     .i2{
       margin-top: 6px;color: #e1e6ea;
@@ -976,7 +969,7 @@ footer img{
       color: #e1e6ea;}
       .user-div{
         display: flex;
-      max-width: 530px;margin-left: 30px;
+      max-width: 530px;margin-left: 20px;
       background-color: rgb(255, 255, 255);padding: 10px;
       }
     .user-div img{
@@ -996,7 +989,7 @@ footer img{
     .plus{
       font-size: 15px;
       margin-left: 20px;margin-top: 5px;
-      color: #838c96;
+      color: #83968e;
         cursor: pointer;
         transition: color .15s ease-out;
     }
@@ -1007,7 +1000,7 @@ footer img{
     }
     .tag-div{
       display: flex;
-      max-width: 530px;margin-left: 30px;
+      max-width: 530px;margin-left: 20px;
       background-color: rgb(255, 255, 255);padding: 10px;
     }
     .tag{
@@ -1015,7 +1008,7 @@ footer img{
       background-color: rgb(255, 255, 255);
       border-radius: 3px;margin-left: 23px;
       border: 1px solid #a1abb4;
-    }.tag:hover{background-color: #d5dce4;}
+    }
     .ta{color: #bcc4cc;width: 16px;
       height: 16px}
     .tag i{
@@ -1026,8 +1019,8 @@ footer img{
       color: #838c96;margin: auto 0;
     }
     .line-div{
-      margin: 20px auto;
-      width: 520px;height: 1px;
+      margin-left: 20px;
+      width: 380px;height: 1px;
       background-color: green;
     }
     .sub-p p{

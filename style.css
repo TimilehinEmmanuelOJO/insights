@@ -826,6 +826,12 @@ footer img{
 
 /*Mobile version*/
   @media (max-width: 28em) {
+
+    body{
+      background-color: #ffffff;
+      width: 25em;height: 100%;
+  }
+  
     #place{
       display: flex;
       justify-content: left;
@@ -960,6 +966,7 @@ footer img{
     .scrol-div{
       overflow-y: scroll;
       z-index: 1;height: 500px;
+      width: 414px;
     }
     .i2{
       margin-top: 6px;color: #e1e6ea;
@@ -1020,21 +1027,16 @@ footer img{
     }
     .line-div{
       margin-left: 20px;
-      width: 380px;height: 1px;
-      background-color: green;
+      width: 380px;
     }
     .sub-p p{
-      transition: .2s ease;
-      color: rgb(32, 36, 40);
-          font-size: 14px;
-          line-height: 24px;
           max-width: 70em;  
-          background-color: #E2effd;
+          font-size: 14px;
     }
     .sub-p{
       margin-top: 30px;
-      margin-left: 60px;
-      width: 450px;
+      margin-left: 30px;
+      width: 370px;
     }
     .attach-div{
       display: flex;
@@ -1052,11 +1054,9 @@ footer img{
       color: #a1abb4;
       font-size:12px;
     }
-    .comment-div{display: flex;
-      margin: 0 auto;padding: 5px;
-      width: 300px;height: 40px;
-      background-color: #f2f5f7;
-        font-size: 14px;border-radius: 30px;
+    .comment-div{
+       margin-left:60px ;
+      
     }
     .com{display: flex;
       width: 150px;height: 30px;
@@ -1071,23 +1071,21 @@ footer img{
       margin-left: 10px;
       margin-top: 0px;
     }
-    .circ{font-size: 20px;color: #a1abb4;
+    .circ{font-size: 20px;color: #a1b4a1;
     margin-top: 5px;margin-left: 25px;}
     .circe{
       margin-top: 5px;margin-left: 10px;font-weight: bold;
-      color: #a1abb4;
+      color: #b4afa1;
     }
     footer{
-      position: fixed;
-      bottom: 0;z-index: 2;
-      display: flex;border: 1px solid rgb(225, 230, 234);
-      height: 70px;width: 600px;
-      background-color: #f2f5f7;overflow-y: hidden;
+      position: relative;
+      height: 70px;width: 414px;
+      background-color: #f7f4f2;overflow-y: hidden;
     }
     footer img{
       width: 30px;height: 30px;
       border-radius: 50%;
-      margin: auto 30px;
+      margin: auto 20px;
     }
     .oj{
       margin: auto 0;
@@ -1096,14 +1094,14 @@ footer img{
       font-weight: bold;
     }
     .follow{
-      width: 80px;height: 30px;
+      width: 90px;height: 30px;
       margin: auto  10px;
       border-radius: 4px;
-        border: 1px solid rgb(225, 230, 234);
+        border: 1px solid rgb(225, 234, 226);
         color: rgb(131, 140, 150);margin-left: 10px;
     }
     .follow p{
-      font-size: 12px;
+      font-size: 10px;
       text-align: center;
       margin-top:5px;
       }
@@ -1124,7 +1122,7 @@ footer img{
       margin: auto  10px;
       border-radius: 4px;
         border: 1px solid rgb(225, 230, 234);
-        color: rgb(131, 140, 150);margin-left: 100px;
+        color: rgb(131, 140, 150);margin-left: 10px;
       }
       .unp i{
         color: red;
@@ -1145,8 +1143,8 @@ footer img{
         margin: auto 10px;
       }
       .write input{
-        width: 450px;
+        width: 320px;
         height: 40px;
-        border: 1px solid #a1abb4;
+        border: 1px solid #0070d1;
       } 
   }

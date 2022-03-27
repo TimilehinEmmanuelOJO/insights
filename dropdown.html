@@ -1,16 +1,2324 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <img src="Screenshot 2022-03-22 123718.png" alt="">
+        
+            <h1>Insights</h1>
+            <div class="filter-class">
+                <div class="filt">
+                    <i class="bi bi-filter"></i><H3>FILTER</H3>
+                </div>
+                <div class="form-con">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <form action=""><input type="search" placeholder="Search notes..." name="" id=""></form>
+                </div>
+            </div>
+            <div class="date">
+                <i class="fa-regular fa-calendar"></i>
+                <h5>Any time</h5>
+            </div>
+        </div>
+    </nav>
+    <div class="navs">
+        <div class="navee">
+            <div class="im">
+                <img src="Screenshot 2022-03-22 123718.png" alt="">
+            <h1>Insights</h1>
+            </div>
+            <div onclick="myMenu()"><i class="fa-solid fa-align-justify"></i></div>
+        </div>
+        <div class="shift">
+            <div class="dropd" id="drop">
+                <i style="margin-top: 6px; font-size: 20px;color: black;" class="fa-solid fa-bars-filter"></i><H3>FILTER</H3>
+                    
+                    <div class="form-con">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search notes..." name="" id="">
+                    </div>
+                    <div class="date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <h5>Any time</h5>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="top-side">
+            <i class="bi bi-app"></i>
+            <i class="bi bi-filter-square"></i>
+            <i class="bi bi-filter-right"></i>
+            <i class="bi bi-compass"></i>
+        </div>
+        <div class="bottom-side">
+            <i class="bi bi-question-circle"></i>
+            <i class="bi bi-bell-fill"></i>
+            <div class="avatar">
+                <img src="IMG_3969.jpg" alt="">
+            </div>
+        </div> 
+    </div>
+    <div id="place">      
+        <div class="main-div">
+            <div class="left-main-div">
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Assigned to me</p></div>
+                    <p style="margin-left: 75px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-x"></i><p>Unassigned</p></div>
+                    <p style="margin-left: 100px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Unprocessed</p></div>
+                    <p style="margin-left: 90px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Following</p></div>
+                    <p style="margin-left: 115px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex" style="color: #4da6ff;"><i class="bi bi-folder2"></i><p>All notes</p></div>
+                    <p style="margin-left: 122px; color: #4da6ff;">7</p>
+                </div>
+                <div class="tags"><p> TAGS<i style="margin-left: 5px;" class="bi bi-caret-right-fill"></i></p><i style="margin-left:155px;" class="bi bi-three-dots"></i></div>
+               <div class="more-circle">
+                    <i  class="bi bi-plus"></i>
+               </div>
+            </div>
+            <div class="right-main-div">
+                <p class="sp">THIS MONTH</p>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="nike.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Nike</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 27px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Interview - <span> Do you have a timeline for submitting </span>  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="att.jpg" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">AT&T</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 24px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Improved author experience would  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="apple.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Apple</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 20px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p><3 Zlack!!! - Hi Zlack tean, loving the product so far  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="pied.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: bold; color: #202428;">PiedPiper</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <span style=" font-size:12px ;margin-left: 15px; margin-top: 5px;">User3</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 3px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot" style="color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="tiff.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428; font-weight: bold;">CompanyA</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: -10px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="main-div1">
+            <div class="top-main-div">
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Assigned to me</p></div>
+                    <p style="margin-left: 75px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-x"></i><p>Unassigned</p></div>
+                    <p style="margin-left: 100px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Unprocessed</p></div>
+                    <p style="margin-left: 90px;">7</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex"><i class="bi bi-folder-check"></i><p>Following</p></div>
+                    <p style="margin-left: 115px;">0</p>
+                </div>
+                <div class="assign">
+                    <div class="iflex" style="color: #4da6ff;"><i class="bi bi-folder2"></i><p>All notes</p></div>
+                    <p style="margin-left: 122px; color: #4da6ff;">7</p>
+                </div>
+                <div class="tags"><p> TAGS<i style="margin-left: 5px;" class="bi bi-caret-right-fill"></i></p><i style="margin-left:155px;" class="bi bi-three-dots"></i></div>
+               <div class="more-circle">
+                    <i  class="bi bi-plus"></i>
+               </div>
+            </div>
+            <div class="bottom-main-div">
+                <p class="sp">THIS MONTH</p>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="nike.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Nike</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 27px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Interview - <span> Do you have a timeline for submitting </span>  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="att.jpg" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">AT&T</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 24px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Improved author experience would  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="apple.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;font-weight: bold;">Apple</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 20px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p><3 Zlack!!! - Hi Zlack tean, loving the product so far  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="pied.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: bold; color: #202428;">PiedPiper</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <span style=" font-size:12px ;margin-left: 15px; margin-top: 5px;">User3</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 3px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot" style="color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;color:#e1e6ea"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="tiff.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428; font-weight: bold;">CompanyA</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: -10px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+                <div class="right-div container">
+                    <div class="top-div">
+                        <img src="microsoft.png" alt="">
+                        <span style="margin-left: 15px;margin-top: 5px; font-size: 13px; font-weight: 700px; color: #202428;">Microsoft</span>
+                        <span style="margin-left: 15px; margin-top: 2px;">I</span>
+                        <i style="margin-left: 15px; margin-top: 5px;color: #e1e6ea;" class="bi bi-window-dock"></i>
+                        <span style="margin-left: 15px; margin-top: 1px;">1</span>
+                        <p>Mar17</p>
+                        <i class="bi bi-dot ii"style="margin-left: 0px; margin-top:-13px"></i>
+                    </div>
+                    <div class="bottom-div ">
+                        <div class="cir-div">
+                            <i class="bi bi-dot"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>
+                            <i class="bi bi-dot"style="margin-left: -30px;"></i>    
+                        </div>
+                        <p>Customer call - Do you guys have an extimate for  ...</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="sub-div">
+            <div class="customer-div">
+                <i class="bi bi-calendar2-minus i2"></i>
+                <p>Customer call</p>
+                <div class="iup">
+                    <i style="margin-top: 2px;" class="bi bi-caret-down-fill"></i>
+                    <i style="margin-bottom: 2px;" class="bi bi-caret-up-fill"></i>
+                </div>
+                <i class="bi bi-three-dots i3"></i>
+                <i></i>
+            </div>
+            <div class="scrol-div">
+                <div class="user-div">
+                <i class="bi bi-person bibi"></i>
+                <img src="microsoft.png" alt="">
+                <p>Microsoft</p>
+                <i class="bi bi-plus-circle-fill plus"></i>
+                <p class="add">add user</p>
+                </div>
+                <div class="tag-div">
+                    <i class="bi bi-tag-fill ta"></i>
+                    <div class="tag" style="display: flex;">
+                        <i class="bi bi-plus"></i>
+                        <p>TAGS</p>
+                    </div>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="sub-p">
+                    <p>
+                        Do you guys have an estimate for how long we'll have to wait for these <br>
+                        two-factor authentication? I'm getting some pressure from our head of IT <br>
+                        who's pushing to switch to one of your competitors.
+                    </p>
+                </div>
+                <div class="attach-div">
+                    <i class="bi bi-paperclip"></i>
+                    <p>ADD ATTACHMENT</p>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="comment-div">
+                    <div class="com">
+                        <i class="bi bi-chat"></i>
+                        <h4>Comments</h4>
+                    </div>
+                    <i class="bi bi-info-circle circ"></i>
+                    <h4 class="circe">History</h4>
+                </div>
+                <div class="write">
+                    <i class="bi bi-chat"></i>
+                    <input type="text" placeholder="Write a comment">
+                </div>
+            
+            </div>
+            <footer>
+               <img src="IMG_3969.jpg" alt="">
+               <p class="oj">ojo</p>
+               <div class="follow">
+                   <p>FOLLOW</p>
+               </div>
+               <div class="one">
+                    <i class="bi bi-wifi-2"></i>
+                    <p>0</p>
+               </div>
+               <div class="unp">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <p>UNPROCESS</p>
+               </div>
+            </footer>
+        </div>
+        <div class="sub-div1">
+            <div class="customer-div">
+                <i class="bi bi-calendar2-minus i2"></i>
+                <p>Customer call</p>
+                <div class="iup">
+                    <i style="margin-top: 2px;" class="bi bi-caret-down-fill"></i>
+                    <i style="margin-bottom: 2px;" class="bi bi-caret-up-fill"></i>
+                </div>
+                <i class="bi bi-three-dots i3"></i>
+                <i></i>
+            </div>
+            <div class="scrol-div">
+                <div class="user-div">
+                <i class="bi bi-person bibi"></i>
+                <img src="microsoft.png" alt="">
+                <p>Microsoft</p>
+                <i class="bi bi-plus-circle-fill plus"></i>
+                <p class="add">add user</p>
+                </div>
+                <div class="tag-div">
+                    <i class="bi bi-tag-fill ta"></i>
+                    <div class="tag" style="display: flex;">
+                        <i class="bi bi-plus"></i>
+                        <p>TAGS</p>
+                    </div>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="sub-p">
+                    <p>
+                        Do you guys have an estimate for how long we'll have to wait for these <br>
+                        two-factor authentication? I'm getting some pressure from our head of IT <br>
+                        who's pushing to switch to one of your competitors.
+                    </p>
+                </div>
+                <div class="attach-div">
+                    <i class="bi bi-paperclip"></i>
+                    <p>ADD ATTACHMENT</p>
+                </div>
+                <div class="line-div">
+                </div>
+                <div class="comment-div">
+                    <div class="com">
+                        <i class="bi bi-chat"></i>
+                        <h4>Comments</h4>
+                    </div>
+                    <i class="bi bi-info-circle circ"></i>
+                    <h4 class="circe">History</h4>
+                </div>
+                <div class="write">
+                    <i class="bi bi-chat"></i>
+                    <input type="text" placeholder="Write a comment">
+                </div>
+            
+            </div>
+            <footer>
+               <img src="IMG_3969.jpg" alt="">
+               <p class="oj">ojo</p>
+               <div class="follow">
+                   <p>FOLLOW</p>
+               </div>
+               <div class="one">
+                    <i class="bi bi-wifi-2"></i>
+                    <p>0</p>
+               </div>
+               <div class="unp">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <p>UNPROCESS</p>
+               </div>
+            </footer>
+        </div>
+    </div>
     
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+@media (max-width: 80em) {
+    nav{
+      display: flex;
+      height: 67px;
+      justify-content: space-between;
+      width: 100%;
+      border-bottom: 1px solid rgba(212, 199, 199, 0.5);
+      background: rgb(255, 255, 255);
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 20px 0;
+      transition: all 0.5s ease;
+      }
+    nav img{display: flex;
+      width: 50px;height: 50px;
+      margin-top: -6px;margin-left:15px;
+    
+    }
+    nav h1{
+      font-family: "proxima", 'area';
+      font-weight: bold;
+      font-size: 20px;padding: 0 0px;
+     margin-top: 0px;margin-left:0px;
+    }
+    .filter-class{
+      display: flex;margin-left:130px;
+      gap: 20px;justify-content: space-evenly;
+    }
+    .filt{
+      margin-top: 6px;
+      display: flex;
+      gap: 5px;
+    }
+    .filt i{
+      font-size: 16px;
+      margin-top: px;color: #A1ABBA;
+    }
+    .filt h3{
+      margin-top: 0px;
+      font-family: "proxima";
+      font-size: 12px;color: #A1ABBA;
+    }
+    .form-con{
+      display: flex;
+      background-color: #f8fafb;height: 36px;
+      border-radius: 5px;margin-top: -3px;
+    }
+    .form-con i{
+      margin: auto 10px;color: #A1ABBA;
+    }
+    .form-con i:focus{color: blue;}
+    input{
+      width: 705.67px; height: 36px;
+      border: none;background-color: #f8fafb;
+      outline: none; border-radius: 5px;
+    }
+    input ::placeholder{
+      font-size: 14px;font-family: 'proxima';
+      line-height: 18px;color: #A1ABBA;
+    }
+    .date{
+      display: flex;margin-top: -3px;margin-right: 30px;
+      width: 110.41px;height: 36px; 
+      border: 1px solid rgb(225, 230, 234);
+      padding: 6px 12px; border-radius: 4px;
+      cursor: pointer;gap: 10px;
+    }
+    .date i{
+      font-size: 14px;
+      margin-top: 3px;
+      color: #838c96;
+    }
+    .date h5{
+      margin-left: 0px;font-size: 14px;margin-top: 0px;
+      color: #838c96;font-weight: bold;
+    }
+  }
+  
+  
+  
+  .navs{display: none;}
+  /* 1200px / 16px = 75em */
+  @media (max-width: 75em) {
+    body{
+      width: 75em;
+    }
+   nav{
+     display: none;
+   }
+   .navs{
+     display: flex;flex-direction: column;
+   }
+   .navee{
+    display: flex;
+    height: 67px;
+    padding: 4 40px;
+    border-bottom: 1px solid rgba(212, 199, 199, 0.5);
+  }
+  button{border: none;background-color: white;}
+  .im{
+    display: flex;
+    justify-content: left;
+  }
+  .im img{margin-left: -35px;width: 50px;height: 50px;margin-top: 10px;}
+  .im h1{
+    margin-left: 50px; font-family: "proxima";
+    font-size: 20px;margin-top: 20px;
+  }
+  .navee i{font-size: 30px;margin-top: 10px;}
+  .dropd{display:block ;border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 100%;height: 200px;
+  }
+  .shift{display: flex;justify-content: end;}
+  .show{display: none;}
+  h3{
+  font-family: "proxima", 'area';
+  font-weight: bold;
+  font-size: 18px;padding: 0 ;
+  margin-left:30px;margin-top: 15px;
+  }
+  .form-con{
+  margin-left: 30px;display: flex;
+  background-color: #f8fafb;height: 36px;
+  border-radius: 5px;margin-top: px;
+  width: 50%;
+  }
+  .form-con i{
+  margin: auto 10px;color: #A1ABBA;
+  }
+  .form-con i:focus{color: blue;}
+  
+  input{
+  height: 36px; width: 100%;
+  border: none;background-color: #f8fafb;
+  outline: none; border-radius: 5px;
+  }
+  input ::placeholder{
+  font-size: 14px;font-family: 'proxima';
+  line-height: 18px;color: #A1ABBA;
+  }
+  .date{
+  display: flex;margin: -3px 10px;
+  width: 120.41px;height: 36px; 
+  border: 1px solid rgb(225, 230, 234);
+  padding: 6px 12px; border-radius: 4px;
+  cursor: pointer;margin-top: 20px;
+  margin-left: 30px;
+  }
+  .date i{
+  font-size: 14px;
+  margin-top: 3px;
+  color: #838c96;
+  }
+  .date h5{
+  margin-left: 10px;font-size: 14px;margin-top: 0px;
+  color: #838c96;font-weight: bold;
+  }
+  }
+  
+  
+  
+  
+  /*Nav Mobile Version*/
+  @media (max-width: 28em) {
+    
+    nav{
+      display: none;
+    }
+    .navs{
+      display: flex;
+      width: 414px;
+    }
+    .navee{background-color: #ffffff;
+     display: flex;width: 414px;
+     height: 67px;
+     padding: 4 40px; justify-content: space-between;
+     border-bottom: 1px solid rgba(212, 199, 199, 0.5);
+   }
+   button{border: none;background-color: white;}
+   .im{
+     display: flex;
+     justify-content: left;
+   }
+   .im img{
+     margin-left: -45px;
+     width: 40px;height: 40px;
+     margin-top: 10px;
+    }
+   .im h1{
+     margin-left: 20px; font-family: "proxima";
+     font-size: 14px;margin-top: 20px;
+   }
+   .navee i{font-size: 20px;margin-top: 17px;}
+   .dropd{display:none ;border-radius: 0px;
+     background-color: #f1f1f1;
+     width: 100%;height: 200px;
+   }
+   .shift{
+     display: flex;justify-content: end;
+     width:414px;
+    }
+   .show{display: block;}
+   h3{
+   font-family: "proxima", 'area';
+   font-weight: bold;
+   font-size: 12px;padding: 0;
+   margin-left:15px;margin-top: 15px;
+   }
+   .form-con{
+   margin-left: 15px;display: flex;
+   background-color: #f8fafb;height: 36px;
+   border-radius: 5px;margin-top: px;
+   width: 350px;
+   }
+   .form-con i{
+   margin: auto 10px;color: #A1ABBA;
+   }
+   .form-con i:focus{color: blue;}
    
-</div>
+   input{
+   height: 36px; width: 100%;
+   border: none;background-color: #f8fafb;
+   outline: none; border-radius: 5px;
+   }
+   input ::placeholder{
+   font-size: 14px;font-family: 'proxima';
+   line-height: 18px;color: #A1ABBA;
+   }
+   .date{
+   display: flex;margin: -3px 10px;
+   width: 130.41px;height: 36px; 
+   border: 1px solid rgb(225, 230, 234);
+   padding: 6px 12px; border-radius: 4px;
+   cursor: pointer;margin-top: 20px;
+   margin-left: 15px;
+   }
+   .date i{
+   font-size: 14px;
+   margin-top: 3px;
+   color: #838c96;
+   }
+   .date h5{
+   margin-left: 10px;font-size: 14px;margin-top: 0px;
+   color: #838c96;font-weight: bold;
+   }
+  }
+  
+  #place{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@font-face {
+  font-family:'proxima' ;
+  src: url('fonts/Proxima Nova Font.otf');
+}
+@font-face {
+  font-family: 'area';
+  src: url("fonts/ArialCE.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'proxima', 'area',  sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    display:flex;
+    margin:  0 0;
+    overflow-y: ;
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 80em) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+    body {
+      background-color: rgb(179, 255, 0);
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    body {
+      background-color:rgb(0, 255, 85);
+    }
+  }
+  /*787.36px / 16px = 49.21em*/
+  @media(max-width:49.21em){
+      body{
+        background-color: rgb(0, 195, 255);
+      }
+  }
+/*563.36px / 16px = 35.21em*/
+  @media(max-width:35.21em){
+    body{
+      background-color: rgb(25, 0, 255);
+    }
+}
+  
+  /* 448px / 16px = 28.75em */
+  @media (max-width: 28em) {
+    body{
+      background-color: rgb(255, 0, 140);  
+    }
+  }
+  
+ul{
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0 0;
+}
+li{margin: 0 0;}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+a:hover{color: black;}
+h1, h2{
+    line-height: 1.2;
+}
+.h3{
+    color: #667b8e;
+}
+p{
+    margin: 0 0;
+    
+}
+img{
+    margin: 0 0;
+    width: 100%;
+}
+button{cursor: pointer;}
+i{cursor: pointer;padding: 0;}
 
 
 
+/*nav bar area*/
+.navs{display: none;}
+nav{
+  display: flex;
+  height: 67px;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid rgba(212, 199, 199, 0.5);
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+  }
+nav img{display: flex;
+  width: 50px;height: 50px;
+  margin-top: -6px;margin-left:5px;
+}
+
+nav h1{
+  font-family: "proxima", 'area';
+  font-weight: bold;
+  font-size: 20px;
+ margin-top: 0px;
+}
+.filter-class{
+  display: flex;margin-left:170px;
+  gap: 20px;justify-content: space-evenly;
+}
+.filt{
+  margin-top: 6px;
+  display: flex;
+  gap: 5px;max-width: 150px;
+}
+.filt i{
+  font-size: 16px;
+  margin-top: px;color: #A1ABBA;
+}
+.filt h3{
+  margin-top: 0px;
+  font-family: "proxima";
+  font-size: 12px;color: #A1ABBA;
+}
+.form-con{
+  display: flex;
+  background-color: #f8fafb;height: 36px;
+  border-radius: 5px;margin-top: -3px;
+}
+.form-con i{
+  margin: auto 10px;color: #A1ABBA;
+}
+.form-con i:focus{color: blue;}
+input{
+  width: 705.67px; height: 36px;
+  border: none;background-color: #f8fafb;
+  outline: none; border-radius: 5px;
+}
+input ::placeholder{
+  font-size: 14px;font-family: 'proxima';
+  line-height: 18px;color: #A1ABBA;
+}
+.date{
+  display: flex;margin-top: -3px;
+  width: 120.41px;height: 36px;
+  border: 1px solid rgb(225, 230, 234);
+  padding: 6px 12px; border-radius: 4px;
+  cursor: pointer;gap: 10px;margin-right: 20px;
+}
+.date i{
+  font-size: 14px;
+  margin-top: 3px;
+  color: #838c96;
+}
+.date h5{
+  margin-left: 0px;font-size: 14px;margin-top: 0px;
+  color: #838c96;font-weight: bold;
+}
 
 
+/*Sidebar */
+
+.sidebar{
+  background: transparent;position: relative;
+  top: 0px;
+  margin-left: 0;
+  width: 65px;
+  padding: 70px 0;
+  transition: all 0.5s ease;
+  border: 1px solid rgba(212, 199, 199, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+.top-side{
+  margin: 30px auto;
+  display: flex;gap: 50px;
+  flex-direction: column;font-size: 16px;
+}
+.bottom-side{
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  gap: 40px;font-size: 20px;
+}
+.bottom-side i{
+  margin: 0 auto;
+  font-size: 16px;
+}
+.avatar img{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #2693ff;
+  transition: .15s ease-out;
+}
 
 
+/*This is the place style which contains the main and sub divs*/
 
+#place{
+  display: flex;
+  justify-content: space-between;
+}
 
+/*This is the main div*/
+.main-div{
+  background-color: #f2f5f7;
+  margin: 67px auto;
+  height: 100%;
+  display: flex;
+}
 
+/*This is the hidden main div for mobile*/
+.main-div1{display: none;}
 
+/*This is left main div*/
+.left-main-div{
+  display: grid;
+  margin:0px 0;
+}
+.assign{
+  display: flex;height: 40px;
+  width: 250px; padding-top:10px ;
+  border-radius: 5px; margin-left: 25px;
+}
+.assign p{
+font-size: 14px;
+}
+.assign:hover{
+  background-color: #ffffff;
+}
+.iflex{display: flex;}
+  .iflex i{margin:  4px 10px;font-weight: bold;}
+  .iflex p{font-family: 'proxima'; font-weight: bold;}
+  .tags{display: flex;height: 40px;
+    width: 250px; padding-top:10px ;
+    border-radius: 5px; margin-left: 25px;
+    font-family: "proxima";
+    color: #a1abb4;
+    font-size: 12px;
+    font-weight: 600;
+    transition: color .2s ease;
+    margin-top: 40px;
+  }
+  .tags:hover{
+    background-color: #ffff;
+  }
+  .tags p{
+    margin-left: 10px;
+  }
+  .tags i:hover{
+    color: #4da6ff;
+  }
+  .more-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #4da6ff;
+    border-radius: 50%;
+    box-shadow: 0 2px 30px rgb(32 36 40 / 5%), 0 1px 8px rgb(32 36 40 / 15%);
+    transition: all .15s ease-in;padding: 15px;
+    margin-left: 25px;margin-top: 200px;
+}
+.more-circle:hover{
+  width: 60px;
+    height: 60px;color: black;
+}
+.more-circle i{
+  font-size: 30px;color: white;
+}
+/*This is right main div*/
+.right-main-div{
+  display: block;height: 700px;overflow-y: scroll;
+  }
+  .sp{
+    font-family: "proxima";
+      margin: 0px;
+      padding: 0px;
+      color: rgb(131, 140, 150);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      text-align: left;
+      text-transform: uppercase;
+  }
+  .right-div{
+    display: flex;flex-direction: column;
+    margin-top: 5px;
+    height: 90px;background-color: rgb(255, 255, 255);
+    border: 1px solid lightblue; border-radius: 10px;
+  }
+  .right-div:hover{background-color: rgb(249, 250, 250);}
+  .right-div:focus{background-color: #000;}
+  .right-main-div p{
+    margin: 15px 0;
+  }
+  .top-div{
+    display: flex;  
+    padding: 15px;
+    }
+    .top-div img{
+      width: 30px; height: 30px;
+      border-radius: 5px;
+    }
+    .top-div span{
+      color: #e1e6ea;
+    }
+    .top-div p{
+      font-size: 12px;
+      color: #ffffff;
+      margin-left: 130px;margin-top: 5px;
+    }
+    
+  .top-div p:hover{
+    color: #e1e6ea;
+  }
+  
+  .ii{
+    font-size: 50px;color: red;
+  }
+  
+  
+  .bottom-div{
+    display: flex;
+    margin-top: -30px;
+    
+  }
+  .cir-div{
+    display: flex;
+  }
+  .cir-div i{
+    font-size: 40px; color: #4da6ff;
+  }
+  .bottom-div p{
+    margin-top: 7px;
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  
+  
+  /*Sidebar side*/
+  
+  
+  
+  /*Sub Div*/
+  .sub-div1{display: none;}
+  .sub-div{
+    width: 600px;display: flex;flex-direction: column;
+    height: 590px;background-color: #ffffff; 
+    margin-top: 68px;
+  }
+  .customer-div{z-index: 3;
+    display: flex;margin-top: 0px;height: ;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+  }
+  .iup{
+    display: flex;flex-direction: column;
+    margin-left: 10px; color: #e1e6ea;
+  }
+  .customer-div p{
+    width: 400px; font-family: "proxima";
+    color: #202428;
+    font-size: 20px;
+    font-weight: 300;
+    transition: color .2s ease;
+    margin-left:25px;
+  }
+  .scrol-div{
+    overflow-y: scroll;
+    z-index: 1;height: 500px;
+  }
+  .customer-div p:hover{
+    border: 1px solid rgb(225, 230, 234);
+    border-radius: 3px;
+  }
+  .i2{
+    margin-top: 6px;color: #e1e6ea;
+  }
+  .i3{
+    margin-top: 7px;margin-left: 10px;
+    color: #e1e6ea;}
+    .user-div{
+      display: flex;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+    }
+  .user-div img{
+    width: 30px;height: 30px;
+    border-radius: 3px;margin-left: 20px;
+  }
+  
+  .bibi{
+    font-size: 20px;color: #838c96;
+    cursor: pointer;
+    transition: color .15s ease-out;;
+  }
+  .user-div p{
+    font-family: 'proxima'; font-weight: bold;
+    margin-left: 10px;
+  }
+  .plus{
+    font-size: 15px;
+    margin-left: 20px;margin-top: 5px;
+    color: #838c96;
+      cursor: pointer;
+      transition: color .15s ease-out;
+  }
+  .add{
+    font-size: 15px;margin-top: 3px;
+    color: #838c96;
+      transition: color .15s ease-out;
+  }
+  .tag-div{
+    display: flex;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+  }
+  .tag{
+    width: 70px;height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;margin-left: 23px;
+    border: 1px solid #a1abb4;
+  }.tag:hover{background-color: #d5dce4;}
+  .ta{color: #bcc4cc;width: 16px;
+    height: 16px}
+  .tag i{
+    font-size: 20px;
+    margin: 3px 0;
+  }
+  .tag p{font-size: 14px;font-weight: bold;
+    color: #838c96;margin: auto 0;
+  }
+  .line-div{
+    margin: 20px auto;
+    width: 520px;height: 1px;
+    background-color: green;
+  }
+  .sub-p p{
+    transition: .2s ease;
+    color: rgb(32, 36, 40);
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 70em;  
+        background-color: #E2effd;
+  }
+  .sub-p{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 450px;
+  }
+  .attach-div{
+    display: flex;
+    margin-left: 40px;margin-top: 110px;
+  }
+  
+  .attach-div i{
+    color: #A1ABB4;font-size: 25px;
+  }
+  .attach-div i:hover{color: #4da6ff;}
+  .attach-div p:hover{color: #4da6ff;}
+  .attach-div p{
+    margin-left: 20px;
+    margin-top: 4px;
+    color: #a1abb4;
+    font-size:12px;
+  }
+  .comment-div{display: flex;
+    margin: 0 auto;padding: 5px;
+    width: 300px;height: 40px;
+    background-color: #f2f5f7;
+      font-size: 14px;border-radius: 30px;
+  }
+  .com{display: flex;
+    width: 150px;height: 30px;
+    background-color: #ffffff;
+     border-radius: 30px;padding: 5px;
+  }
+  .com i{
+    font-weight: bold;color: #4da6ff;
+    font-size: 20px;margin-left: 10px;
+  }
+  .com h4{color: #4da6ff;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .circ{font-size: 20px;color: #a1abb4;
+  margin-top: 5px;margin-left: 25px;}
+  .circe{
+    margin-top: 5px;margin-left: 10px;font-weight: bold;
+    color: #a1abb4;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;z-index: 2;
+    display: flex;border: 1px solid rgb(225, 230, 234);
+    height: 70px;width: 600px;
+    background-color: #f2f5f7;overflow-y: hidden;
+  }
+  footer img{
+    width: 30px;height: 30px;
+    border-radius: 50%;
+    margin: auto 30px;
+  }
+  .oj{
+    margin: auto 0;
+    font-size: 14px;
+    font-family: 'proxima';
+    font-weight: bold;
+  }
+  .follow{
+    width: 80px;height: 30px;
+    margin: auto  10px;
+    border-radius: 4px;
+      border: 1px solid rgb(225, 230, 234);
+      color: rgb(131, 140, 150);margin-left: 10px;
+  }
+  .follow p{
+    font-size: 12px;
+    text-align: center;
+    margin-top:5px;
+    }
+    .one{
+      display: flex;
+      gap: 5px;margin: auto 10px;
+    }
+    .one i{
+      font-size: 20px;
+      color: #a1abb4;
+    }
+    .one p{margin-top: 3px;
+      font-size: 14px;
+      color: #a1abb4;
+    }
+    .unp{display: flex;
+      width: 150px;height: 30px;
+    margin: auto  10px;
+    border-radius: 4px;
+      border: 1px solid rgb(225, 230, 234);
+      color: rgb(131, 140, 150);margin-left: 100px;
+    }
+    .unp i{
+      color: red;
+      font-size: 20px;font-weight: bold;
+      margin: auto 10px;
+    }
+    .unp p{margin-top: 5px;
+      font-size: 14px;
+      color: #a1abb4;
+    }
+    .write{
+      display: flex;margin-top: 50px;
+      margin-left: 30px;margin-bottom: 350px;
+    }
+    .write i{
+      font-size: 20px;
+      color: #a1abb4;
+      margin: auto 10px;
+    }
+    .write input{
+      width: 450px;
+      height: 40px;
+      border: 1px solid #a1abb4;
+    }
+  
+  
+  
+    @media (max-width: 80em){
+      /*Main Div*/
+  .main-div{
+    background-color: #f2f5f7;
+    margin-left: 0px;margin-top: 65px;
+    height: 100%;width: 698px;
+    display: flex;
+  }
+  .main-div1{display: flex;}
+  .left-main-div{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .assign{
+    display: flex;height: 40px;
+    width: 250px; padding-top:10px ;
+    border-radius: 5px; margin-left: 25px;
+  }
+  .assign p{
+  font-size: 14px;
+  }
+  .assign:hover{
+    background-color: #ffffff;
+  }
+  .iflex{display: flex;}
+  .iflex i{margin:  4px 10px;font-weight: bold;}
+  .iflex p{font-family: 'proxima'; font-weight: bold;}
+  .tags{display: flex;height: 40px;
+    width: 250px; padding-top:10px ;
+    border-radius: 5px; margin-left: 25px;
+    font-family: "proxima";
+    color: #a1abb4;
+    font-size: 12px;
+    font-weight: 600;
+    transition: color .2s ease;
+    margin-top: 40px;
+  }
+  .tags:hover{
+    background-color: #ffff;
+  }
+  .tags p{
+    margin-left: 10px;
+  }
+  .tags i:hover{
+    color: #4da6ff;
+  }
+  .more-circle{
+      width: 60px;
+      height: 60px;
+      background-color: #4da6ff;
+      border-radius: 50%;
+      box-shadow: 0 2px 30px rgb(32 36 40 / 5%), 0 1px 8px rgb(32 36 40 / 15%);
+      transition: all .15s ease-in;padding: 15px;
+      margin-left: 25px;margin-top: 200px;
+  }
+  .more-circle:hover{
+    width: 60px;
+      height: 60px;color: black;
+  }
+  .more-circle i{
+    font-size: 30px;color: white;
+  }
+  .sp{
+    font-family: "proxima";
+      margin: 0px;
+      padding: 0px;
+      color: rgb(131, 140, 150);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      text-align: left;
+      text-transform: uppercase;
+  }
+  
+  .right-main-div{
+  display: block;height: 700px;overflow-y: scroll;
+  }
+  .right-div{
+    width: 390px;margin-top: 5px;
+    height: 90px;background-color: rgb(255, 255, 255);
+    border: 1px solid lightblue; border-radius: 10px;
+  }
+  .right-div:hover{background-color: rgb(249, 250, 250);}
+  .right-div:focus{background-color: #000;}
+  .right-main-div{margin-left: 15px; overflow-y: scroll;}
+  .right-main-div p{
+    margin: 15px 0;
+  }
+  .top-div{
+  display: flex;
+  padding: 15px;
+  }
+  .top-div img{
+    width: 30px; height: 30px;
+    border-radius: 5px;
+  }
+  .top-div span{
+    color: #e1e6ea;
+  }
+  .top-div p{
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 130px;margin-top: 5px;
+  }
+  .top-div p:hover{
+    color: #e1e6ea;
+  }
+  .ii{
+    font-size: 50px;color: red;
+  }
+  .bottom-div{
+    display: flex;
+    margin-top: -30px;
+    
+  }
+  .cir-div{
+    display: flex;
+  }
+  .cir-div i{
+    font-size: 40px; color: #4da6ff;
+  }
+  .bottom-div p{
+    margin-top: 7px;
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  
+  
+  /*Sidebar side*/
+  .sidebar{
+    background: transparent;position: relative;
+    top: 0px;
+    margin-left: 0;
+    width: 65px;
+    padding: 70px 0;
+    transition: all 0.5s ease;
+    border: 1px solid rgba(212, 199, 199, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  .top-side{
+    margin: 30px auto;
+    display: flex;gap: 50px;
+    flex-direction: column;font-size: 16px;
+  }
+  .bottom-side{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    gap: 40px;font-size: 20px;
+  }
+  .bottom-side i{
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .avatar img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #2693ff;
+    transition: .15s ease-out;
+  }
+  
+  
+  
+  /*Sub Div*/
+  .sub-div1{display: none;}
+  .sub-div{
+    width: 600px;display: flex;flex-direction: column;
+    height: 590px;background-color: #ffffff; 
+    margin-top: 68px;
+  }
+  .customer-div{z-index: 3;
+    display: flex;margin-top: 0px;height: ;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+  }
+  .iup{
+    display: flex;flex-direction: column;
+    margin-left: 10px; color: #e1e6ea;
+  }
+  .customer-div p{
+    width: 400px; font-family: "proxima";
+    color: #202428;
+    font-size: 20px;
+    font-weight: 300;
+    transition: color .2s ease;
+    margin-left:25px;
+  }
+  .scrol-div{
+    overflow-y: scroll;
+    z-index: 1;height: 500px;
+  }
+  .customer-div p:hover{
+    border: 1px solid rgb(225, 230, 234);
+    border-radius: 3px;
+  }
+  .i2{
+    margin-top: 6px;color: #e1e6ea;
+  }
+  .i3{
+    margin-top: 7px;margin-left: 10px;
+    color: #e1e6ea;}
+    .user-div{
+      display: flex;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+    }
+  .user-div img{
+    width: 30px;height: 30px;
+    border-radius: 3px;margin-left: 20px;
+  }
+  
+  .bibi{
+    font-size: 20px;color: #838c96;
+    cursor: pointer;
+    transition: color .15s ease-out;;
+  }
+  .user-div p{
+    font-family: 'proxima'; font-weight: bold;
+    margin-left: 10px;
+  }
+  .plus{
+    font-size: 15px;
+    margin-left: 20px;margin-top: 5px;
+    color: #838c96;
+      cursor: pointer;
+      transition: color .15s ease-out;
+  }
+  .add{
+    font-size: 15px;margin-top: 3px;
+    color: #838c96;
+      transition: color .15s ease-out;
+  }
+  .tag-div{
+    display: flex;
+    max-width: 530px;margin-left: 30px;
+    background-color: rgb(255, 255, 255);padding: 10px;
+  }
+  .tag{
+    width: 70px;height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;margin-left: 23px;
+    border: 1px solid #a1abb4;
+  }.tag:hover{background-color: #d5dce4;}
+  .ta{color: #bcc4cc;width: 16px;
+    height: 16px}
+  .tag i{
+    font-size: 20px;
+    margin: 3px 0;
+  }
+  .tag p{font-size: 14px;font-weight: bold;
+    color: #838c96;margin: auto 0;
+  }
+  .line-div{
+    margin: 20px auto;
+    width: 520px;height: 1px;
+    background-color: green;
+  }
+  .sub-p p{
+    transition: .2s ease;
+    color: rgb(32, 36, 40);
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 70em;  
+        background-color: #E2effd;
+  }
+  .sub-p{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 450px;
+  }
+  .attach-div{
+    display: flex;
+    margin-left: 40px;margin-top: 110px;
+  }
+  
+  .attach-div i{
+    color: #A1ABB4;font-size: 25px;
+  }
+  .attach-div i:hover{color: #4da6ff;}
+  .attach-div p:hover{color: #4da6ff;}
+  .attach-div p{
+    margin-left: 20px;
+    margin-top: 4px;
+    color: #a1abb4;
+    font-size:12px;
+  }
+  .comment-div{display: flex;
+    margin: 0 auto;padding: 5px;
+    width: 300px;height: 40px;
+    background-color: #f2f5f7;
+      font-size: 14px;border-radius: 30px;
+  }
+  .com{display: flex;
+    width: 150px;height: 30px;
+    background-color: #ffffff;
+     border-radius: 30px;padding: 5px;
+  }
+  .com i{
+    font-weight: bold;color: #4da6ff;
+    font-size: 20px;margin-left: 10px;
+  }
+  .com h4{color: #4da6ff;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .circ{font-size: 20px;color: #a1abb4;
+  margin-top: 5px;margin-left: 25px;}
+  .circe{
+    margin-top: 5px;margin-left: 10px;font-weight: bold;
+    color: #a1abb4;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;z-index: 2;
+    display: flex;border: 1px solid rgb(225, 230, 234);
+    height: 70px;width: 600px;
+    background-color: #f2f5f7;overflow-y: hidden;
+  }
+  footer img{
+    width: 30px;height: 30px;
+    border-radius: 50%;
+    margin: auto 30px;
+  }
+  .oj{
+    margin: auto 0;
+    font-size: 14px;
+    font-family: 'proxima';
+    font-weight: bold;
+  }
+  .follow{
+    width: 80px;height: 30px;
+    margin: auto  10px;
+    border-radius: 4px;
+      border: 1px solid rgb(225, 230, 234);
+      color: rgb(131, 140, 150);margin-left: 10px;
+  }
+  .follow p{
+    font-size: 12px;
+    text-align: center;
+    margin-top:5px;
+    }
+    .one{
+      display: flex;
+      gap: 5px;margin: auto 10px;
+    }
+    .one i{
+      font-size: 20px;
+      color: #a1abb4;
+    }
+    .one p{margin-top: 3px;
+      font-size: 14px;
+      color: #a1abb4;
+    }
+    .unp{display: flex;
+      width: 150px;height: 30px;
+    margin: auto  10px;
+    border-radius: 4px;
+      border: 1px solid rgb(225, 230, 234);
+      color: rgb(131, 140, 150);margin-left: 100px;
+    }
+    .unp i{
+      color: red;
+      font-size: 20px;font-weight: bold;
+      margin: auto 10px;
+    }
+    .unp p{margin-top: 5px;
+      font-size: 14px;
+      color: #a1abb4;
+    }
+    .write{
+      display: flex;margin-top: 50px;
+      margin-left: 30px;margin-bottom: 350px;
+    }
+    .write i{
+      font-size: 20px;
+      color: #a1abb4;
+      margin: auto 10px;
+    }
+    .write input{
+      width: 450px;
+      height: 40px;
+      border: 1px solid #a1abb4;
+    }
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Mobile version*/
+    @media (max-width: 28em) {
+  
+      body{
+        background-color: #ffffff;
+        width: 414px;height: 100%;
+    }
+    
+      #place{
+        display: flex;
+        justify-content: left;width: 469px;
+      }
+      
+      /*Sidebar side*/
+      .sidebar{
+        top: 0px;
+        width: 55px;height: 610px;
+        padding: 30px 0;
+        }
+      .avatar img{
+        width: 30px;
+        height: 30px;
+      }
+      
+        
+      /*Main Div*/
+      .main-div{display: none;
+        background-color: #f2f5f7;
+        margin-left: 0px;margin-top: -35px;
+        height: 100%;width: 698px;
+      }
+      .main-div1{
+        display: flex;margin-left:-0px ;
+        flex-direction: column;width: 28em;
+        background-color: #f2f5f7;
+      }
+      .top-main-div{
+        display: flex; 
+        flex-direction: column;
+        margin-top: 5px;
+      }
+      .assign{
+        display: flex;height: 40px;
+        width: 300px; padding-top:10px ;
+        margin-left: 20px;margin-top: 20px;
+      }
+      .assign p{
+      font-size: 16px;
+      }
+      
+      .iflex i{margin:  4px 10px;font-size: 20px;}
+      .iflex p{font-family: 'proxima';font-size: large; font-weight: bold;}
+      .tags{display: flex;height: 40px;
+        width: 300px; padding-top:10px ;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+      .tags p{
+        margin-left: 10px;
+      }
+      .more-circle{
+          width: 60px;
+          height: 60px;
+          margin-left: 20px;margin-top: 150px;
+      }
+      .sp{
+          font-size: 16px;margin-top: 50px;
+          text-align: left;margin-left: 40px;
+       }
+      
+      .bottom-main-div{
+        background-color: #f2f5f7;margin-left: -45px;
+      display: block;height: 450px;overflow-y: scroll;
+      margin-top: 13px;}
+      .right-div{
+        width: 370px;margin-top: 5px;margin-left: 20px;
+        height: 90px;background-color: rgb(255, 255, 255);
+        border: 1px solid lightblue; border-radius: 10px;
+      }
+      .right-main-div{
+        margin-left: 15px; 
+        overflow-y: scroll;
+      }
+      .right-main-div p{
+        margin: 15px 0;
+      }
+      .top-div{
+      display: flex;
+      padding: 15px;
+      }
+      .top-div p{
+        font-size: 10px;
+      }
+      .ii{
+        position: relative; left:  -30px;
+        font-size: 50px;color: red;
+      }
+      .bottom-div{
+        display: flex;
+        margin-top: -30px;
+        
+      }
+      .cir-div{
+        display: flex;
+      }
+      .cir-div i{
+        font-size: 40px; color: #4da6ff;
+      }
+      .bottom-div p{
+        margin-top: 7px;
+        font-size: 14px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      /*Sub Div*/
+      .sub-div{display: none;}
+      .sub-div1{
+        width: 600px;display: flex;flex-direction: column;
+        height: 590px;background-color: #ffffff; 
+        margin-top: 1060px;margin-left: -450px;
+      }
+      .customer-div{z-index: 3;
+        display: flex;margin-top: 50px;height: ;
+        max-width: 530px;margin-left: 20px;
+        background-color: rgb(255, 255, 255);padding: 10px;
+      }
+      .iup{
+        display: flex;flex-direction: column;
+        margin-left: -120px; color: #000000;
+      }
+      .customer-div p{
+        width: 400px; font-family: "proxima";
+        font-size: 18px;
+        }
+      .scrol-div{
+        overflow-y: scroll;
+        z-index: 1;height: 500px;
+        width: 414px;
+      }
+      .i2{
+        margin-top: 6px;color: #e1e6ea;
+      }
+      .i3{
+        margin-top: 7px;margin-left: 10px;
+        color: #e1e6ea;}
+        .user-div{
+          display: flex;
+        max-width: 530px;margin-left: 20px;
+        background-color: rgb(255, 255, 255);padding: 10px;
+        }
+      .user-div img{
+        width: 30px;height: 30px;
+        border-radius: 3px;margin-left: 20px;
+      }
+      
+      .bibi{
+        font-size: 20px;color: #838c96;
+        cursor: pointer;
+        transition: color .15s ease-out;;
+      }
+      .user-div p{
+        font-family: 'proxima'; font-weight: bold;
+        margin-left: 10px;
+      }
+      .plus{
+        font-size: 15px;
+        margin-left: 20px;margin-top: 5px;
+        color: #83968e;
+          cursor: pointer;
+          transition: color .15s ease-out;
+      }
+      .add{
+        font-size: 15px;margin-top: 3px;
+        color: #838c96;
+          transition: color .15s ease-out;
+      }
+      .tag-div{
+        display: flex;
+        max-width: 530px;margin-left: 20px;
+        background-color: rgb(255, 255, 255);padding: 10px;
+      }
+      .tag{
+        width: 70px;height: 30px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;margin-left: 23px;
+        border: 1px solid #a1abb4;
+      }
+      .ta{color: #bcc4cc;width: 16px;
+        height: 16px}
+      .tag i{
+        font-size: 20px;
+        margin: 3px 0;
+      }
+      .tag p{font-size: 14px;font-weight: bold;
+        color: #838c96;margin: auto 0;
+      }
+      .line-div{
+        margin-left: 20px;
+        width: 380px;
+      }
+      .sub-p p{
+            max-width: 70em;  
+            font-size: 14px;
+      }
+      .sub-p{
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 370px;
+      }
+      .attach-div{
+        display: flex;
+        margin-left: 40px;margin-top: 110px;
+      }
+      
+      .attach-div i{
+        color: #A1ABB4;font-size: 25px;
+      }
+      .attach-div i:hover{color: #4da6ff;}
+      .attach-div p:hover{color: #4da6ff;}
+      .attach-div p{
+        margin-left: 20px;
+        margin-top: 4px;
+        color: #a1abb4;
+        font-size:12px;
+      }
+      .comment-div{
+         margin-left:60px ;
+        
+      }
+      .com{display: flex;
+        width: 150px;height: 30px;
+        background-color: #ffffff;
+         border-radius: 30px;padding: 5px;
+      }
+      .com i{
+        font-weight: bold;color: #4da6ff;
+        font-size: 20px;margin-left: 10px;
+      }
+      .com h4{color: #4da6ff;
+        margin-left: 10px;
+        margin-top: 0px;
+      }
+      .circ{font-size: 20px;color: #a1b4a1;
+      margin-top: 5px;margin-left: 25px;}
+      .circe{
+        margin-top: 5px;margin-left: 10px;font-weight: bold;
+        color: #b4afa1;
+      }
+      footer{
+        position: relative;
+        height: 70px;width: 414px;
+        background-color: #f7f4f2;overflow-y: hidden;
+      }
+      footer img{
+        width: 30px;height: 30px;
+        border-radius: 50%;
+        margin: auto 20px;
+      }
+      .oj{
+        margin: auto 0;
+        font-size: 14px;
+        font-family: 'proxima';
+        font-weight: bold;
+      }
+      .follow{
+        width: 90px;height: 30px;
+        margin: auto  10px;
+        border-radius: 4px;
+          border: 1px solid rgb(225, 234, 226);
+          color: rgb(131, 140, 150);margin-left: 10px;
+      }
+      .follow p{
+        font-size: 10px;
+        text-align: center;
+        margin-top:5px;
+        }
+        .one{
+          display: flex;
+          gap: 5px;margin: auto 10px;
+        }
+        .one i{
+          font-size: 20px;
+          color: #a1abb4;
+        }
+        .one p{margin-top: 3px;
+          font-size: 14px;
+          color: #a1abb4;
+        }
+        .unp{display: flex;
+          width: 150px;height: 30px;
+        margin: auto  10px;
+        border-radius: 4px;
+          border: 1px solid rgb(225, 230, 234);
+          color: rgb(131, 140, 150);margin-left: 10px;
+        }
+        .unp i{
+          color: red;
+          font-size: 20px;font-weight: bold;
+          margin: auto 10px;
+        }
+        .unp p{margin-top: 5px;
+          font-size: 14px;
+          color: #a1abb4;
+        }
+        .write{
+          display: flex;margin-top: 50px;
+          margin-left: 30px;margin-bottom: 350px;
+        }
+        .write i{
+          font-size: 20px;
+          color: #a1abb4;
+          margin: auto 10px;
+        }
+        .write input{
+          width: 320px;
+          height: 40px;
+          border: 1px solid #0070d1;
+        } 
+    }

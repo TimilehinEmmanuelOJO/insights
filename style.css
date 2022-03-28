@@ -107,8 +107,13 @@ nav{
 .filter{
   color: #a1abb4;
   display: flex;
-  gap: 0px;font-size: 12px;
+  gap: 0px;
   margin: auto 30px;
+}
+.filter p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'proxima';
 }
 .filter i{
   color: #a1abb4;
@@ -134,6 +139,10 @@ form input {
     border-radius: 8px;
     font-size: 14px;
     line-height: 18px;
+    }
+    input::placeholder{
+      font-family: 'proxima';
+      font-size: 14px;
     }
 .date{
   display: flex;
@@ -199,7 +208,7 @@ margin: 0 auto;
 .middlebar{
   display: flex;
   background-color: #f2f5f7;
-  width: 700px;
+  width: 800px;
 }
 
 /*Left Bar area*/
@@ -207,7 +216,7 @@ margin: 0 auto;
   width: 300px;
 display: flex;
 flex-direction: column;
-margin:20px 15px;row-gap: 10px;
+margin:20px 5px;row-gap: 10px;
 }
 .assign{padding: 0 15px;
   display: flex;
@@ -235,7 +244,7 @@ margin:20px 15px;row-gap: 10px;
 .tags{transition: .2s ease-out;
   padding: 0 15px;
   display: flex;margin-top: 20px;
-  width: 250px;font-weight: bold;
+  width: 230px;font-weight: bold;
   border-radius: 4px;height: 36px;
   display: flex;color:#a1abb4 ;
 }
@@ -265,26 +274,33 @@ margin:20px 15px;row-gap: 10px;
 
 /*Right Bar area*/
 .rightbar{
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
+  margin-left: 0;width: 400px;
+  height: 600px;
 }
 .rightbar p{
-  font-size: 14px;
+  margin-top: 20px;
+  font-size: 12px;
   font-family: 'proxima';
   font-weight: 700;
   color:#929597;
 }
 .taskbar{
-  display: flex;
+  display: flex;width: 370px;
   flex-direction: column;
-  border: 1px solid #e1e6ea;
+  border: 1px solid #59a7e7;
     border-radius: 6px;
     box-sizing: border-box;
     cursor: pointer;
     height: 86px;
     margin-bottom: 4px;
-    padding: 16px;
+    padding: 10px;margin-left: 0px;
     transition: .2s ease-out;
+}
+.taskbar:hover{
+  background-color: white;
 }
 .topbar{
   display: flex;
@@ -296,6 +312,7 @@ margin:20px 15px;row-gap: 10px;
 }
 .top-left p{
   margin: auto 0;
+  color: #202428; 
 }
 .top-left img{
   width: 26px;
@@ -303,14 +320,79 @@ margin:20px 15px;row-gap: 10px;
 }
 .top-left i{
   margin:auto 0;
+  color: #a1abb4;
 }
 .top-right{
   color: red;
   font-size: 10px;
   margin: auto 0;
 }
+.bottombar{
+  display: flex;
+  gap: 8px;
+}
+.bottombar p{
+  font-size: 12px;
+  color: #202428;
+  margin-top: 12px;
+}
+.bottomi{
+  margin-top:15px;
+  display: flex;
+  font-size: 10px;
+}
+.bottomi {
+  color:#2693ff;
+}
 
 
+
+
+
+
+/*Right bar*/
+.ritebar{
+  width: 100%;
+}
+
+.cust-div{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;margin: 0 auto;
+}
+.left-cust{
+  display: flex;
+  gap: 10px;
+}
+.left-cust i{
+margin-top: 15px;
+color: #bcc4cc;
+}
+.left-cust p{
+  width: 400px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 32px;background-color: #ffffff;
+}
+.left-cust p:hover{
+  border: 1px solid rgb(73, 70, 70);
+}
+.right-cust{
+  display: flex;
+}
+.updown{
+  display: flex;
+  flex-direction: column;
+}
+.down{
+  margin-top: 5px;
+  position: relative;
+  top: 10px;
+}
+.lin{
+  margin: 20px;
+}
 
 
 

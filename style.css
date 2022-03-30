@@ -448,12 +448,12 @@ margin:20px 5px;row-gap: 10px;
   .middlebar{
     display: flex;flex-direction: column;
     background-color: #f2f5f7;
-    width: 800px;
+    width: 370px;
   }
   
   /*Left Bar area*/
   .leftbar{
-    width: 500px;
+    width: 370px;
   display: flex;
   flex-direction: column;
   margin:0px 0px;row-gap: 10px;
@@ -579,6 +579,7 @@ margin:20px 5px;row-gap: 10px;
 /*Right bar*/
 .ritebar{
   width: 100%;
+  margin-left: 100px;
 }
 
 .cust-div{
@@ -1076,5 +1077,13 @@ height: 42px;
 .unprocessed p{
   font-size: 12px;
   margin: auto;
+}
+body{
+  background-color: #ffffff;
+  font-family: 'proxima', 'area';
+  max-width: 100%;
+  color: rgb(0, 0, 0);
+  overflow-y: hidden;
+  height: 100%;
 }
 }

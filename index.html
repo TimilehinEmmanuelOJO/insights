@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
     <title>Insights</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         </div>
         <div class="nav-text">
            <div class="filter">
-                <i class="fas fa-filter"></i></i>
+                <i class="bi bi-filter"></i></i>
                 <p>FILTER</p>
            </div>
            <form action="">
@@ -28,14 +29,41 @@
            </div>
         </div>
     </nav>
+    <div class="navs">
+        <div id="navee">
+            <div class="nav-img">
+                <img src="images\Screenshot 2022-03-22 123718.png" alt="">
+                <h1>Insights</h1>    
+            </div>
+            <div class="but" onclick="myMenu()">
+                <i class="fas fa-align-justify"></i>
+            </div>
+        </div>
+        <div class="shift" id="drop">
+            <div class="dropd" >
+                <div class="fi">
+                    <i class="bi bi-filter"></i></i>
+                    <H3>FILTER</H3>
+                </div>  
+                <div class="form-con">
+                    <i class="fas fa-search"></i>
+                    <input type="search" placeholder="Search notes..." name="" id="">
+                </div>
+                <div class="date1">
+                    <i class="far fa-calendar"></i>
+                    <h5>Any time</h5>
+                </div>
+            </div>
+        </div>
+    </div>
     <main>
         <div class="sidebar">
             <div class="topsidebar">
                 <ul>
-                    <li><i class="fab fa-flipboard"></i></li>
-                    <i class="fab fa-wpforms"></i>
-                    <li><i class="fas fa-align-center"></i></li>
-                    <li><i class="far fa-compass"></i></li>
+                    <li><i class="bi bi-calendar"></i></li>
+                    <li><i class="bi bi-filter-square"></i><li>
+                    <li><i class="bi bi-filter-right"></i></li>
+                    <li><i class="bi bi-compass"></i></li>
                 </ul>
             </div>
             <div class="downsidebar">
@@ -50,35 +78,35 @@
             <div class="leftbar">
                 <div class="assign">
                     <div class="ass">
-                        <i class="fas fa-folder"></i>
+                        <i class="bi bi-folder-check"></i>
                         <p>Assigned to me</p>
                     </div>
                     <p>6</p>
                 </div>
                 <div class="assign">
                     <div class="ass">
-                        <i class="fas fa-folder"></i>
+                        <i class="bi bi-folder-x"></i>
                         <p>Unassigned</p>
                     </div>
                     <p>0</p>
                 </div>
                 <div class="assign">
                     <div class="ass">
-                        <i class="fas fa-folder"></i>
+                        <i class="bi bi-folder-check"></i>
                         <p>Unprocessed</p>
                     </div>
                     <p>6</p>
                 </div>
                 <div class="assign">
                     <div class="ass">
-                        <i class="fas fa-folder"></i>
+                        <i class="bi bi-folder2"></i>
                         <p>Following</p>
                     </div>
                     <p>0</p>
                 </div>
                 <div class="assign">
                     <div class="ass" style="color:#2693ff;">
-                        <i class="fas fa-folder"></i>
+                        <i class="bi bi-folder2"></i>
                         <p>All notes</p>
                     </div>
                     <p>7</p>
@@ -339,7 +367,7 @@
                     </div>
                 </div>
                 <div class="tag">
-                    <i class="fas fa-tag"></i>
+                    <i class="bi bi-tag-fill ta"></i>
                     <div class="plus">
                         <i class="fas fa-plus"></i>
                         <p>TAG</p>
@@ -351,7 +379,7 @@
                     who's pushing to switch to one of your competitors.
                 </p>
                 <div class="attachment">
-                    <i class="fas fa-tag"></i>
+                    <i class="bi bi-paperclip"></i>
                     <p>ADD ATTACHMENT</p>
                 </div>
                 <div class="line"></div>

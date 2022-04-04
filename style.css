@@ -125,9 +125,10 @@ nav{
   font-weight: bold;
   font-family: 'proxima';
 }
-.filter i{
+.filter img{
   color: #a1abb4;
-  margin-top: 10px;
+  margin-top: 2px;
+  width: 24px;height: 30px;
 }
 .filter i:hover{
   color: #59a7e7;
@@ -327,13 +328,13 @@ margin: 0 auto;
   width: 40%;
 display: flex;
 flex-direction: column;
-margin:20px 5px;row-gap: 10px;
+margin:20px 5px;row-gap: 0px;
 }
 .assign{padding: 0 15px;
   display: flex;
   justify-content: space-between;
   width: 90%;transition: .2s ease-out;
-  border-radius: 4px;height: 36px;
+  border-radius: 4px;height: 30px;
 }
 .assign:hover{
   background-color: white;
@@ -343,21 +344,27 @@ margin:20px 5px;row-gap: 10px;
   gap: 5px;
 }
 .ass p{
-  font-size: 14px;
+  color: #000000;
+  font-size: 12px;font-weight: 700;
   font-family: 'proxima', 'area';
+}
+#p{
+  color:#a1abb4;
+  font-size: 14px;
 }
 .ass i{
   color:#a1abb4 ;
-  margin-top:10px;
+  margin-top:12px;
   margin-left: 5px;
   font-size: 15px;
 }
 .tags{transition: .2s ease-out;
   padding: 0 15px;
-  display: flex;margin-top: 20px;
+  display: flex;margin-top: 10px;
   width: 230px;font-weight: bold;
   border-radius: 4px;height: 36px;
   display: flex;color:#a1abb4 ;
+  margin-bottom: -70px;
 }
 .tags:hover{
   background-color: #ffff;
@@ -370,9 +377,20 @@ margin:20px 5px;row-gap: 10px;
   margin-left: 3px;
   margin-top: 10px;
 }
+.for{
+  width: 40%;
+  height: 30px;
+  margin-bottom: ;
+}.for i{
+  margin-top: 5px;
+}
+.for input{
+  width: 100%;
+  height: 28px;
+}
 .circle{
   width: 60px;border-radius: 50%;
-  height: 60px;margin-top: 170px;
+  height: 60px;margin-top: 40px;
   background-color: #2693ff;
   transition: .2s ease-out;
 }

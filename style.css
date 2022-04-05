@@ -325,10 +325,10 @@ margin: 0 auto;
 
 /*Left Bar area*/
 .leftbar{
-  width: 40%;
+  width: 35%;
 display: flex;
 flex-direction: column;
-margin:20px 5px;row-gap: 0px;
+margin:10px 5px;
 }
 .assign{padding: 0 15px;
   display: flex;
@@ -354,17 +354,16 @@ margin:20px 5px;row-gap: 0px;
 }
 .ass i{
   color:#a1abb4 ;
-  margin-top:12px;
+  margin-top:10px;
   margin-left: 5px;
   font-size: 15px;
 }
 .tags{transition: .2s ease-out;
   padding: 0 15px;
-  display: flex;margin-top: 10px;
+  display: flex;margin-top: 0px;
   width: 230px;font-weight: bold;
   border-radius: 4px;height: 36px;
   display: flex;color:#a1abb4 ;
-  margin-bottom: -70px;
 }
 .tags:hover{
   background-color: #ffff;
@@ -388,9 +387,12 @@ margin:20px 5px;row-gap: 0px;
   width: 100%;
   height: 28px;
 }
+.do{
+  margin-bottom: 80px;
+}
 .circle{
-  width: 60px;border-radius: 50%;
-  height: 60px;margin-top: 40px;
+  width: 50px;border-radius: 50%;
+  height: 50px;margin-top: 0px;
   background-color: #2693ff;
   transition: .2s ease-out;
 }
@@ -398,7 +400,7 @@ margin:20px 5px;row-gap: 0px;
   color: #fff;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 15px;font-size: 14px;
 }
 
 
@@ -408,11 +410,11 @@ margin:20px 5px;row-gap: 0px;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  margin-left: 0;width: 58%;
+  margin-left: 0;width: 66%;
   height: 600px;
 }
 .rightbar p{
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 12px;
   font-family: 'proxima';
   font-weight: 700;
@@ -421,17 +423,25 @@ margin:20px 5px;row-gap: 0px;
 .taskbar{
   display: flex;width: 95%;
   flex-direction: column;
-  border: 1px solid #59a7e7;
+  border: 1px solid rgb(190, 186, 186);
     border-radius: 6px;
     box-sizing: border-box;
     cursor: pointer;
-    height: 86px;
+    height: 72px;background-color: white;
     margin-bottom: 4px;
     padding: 10px;margin-left: 0px;
     transition: .2s ease-out;
 }
 .taskbar:hover{
-  background-color: white;
+  background-color: rgb(199, 196, 196);
+}
+#nine{margin: auto 0;
+  width: 15px;height: 15px;
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 .topbar{
   display: flex;
@@ -463,20 +473,27 @@ margin:20px 5px;row-gap: 0px;
   gap: 8px;
 }
 .bottombar p{
-  font-size: 12px;
+  font-size: 10px;
   color: #202428;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 .bottomi{
-  margin-top:15px;
+  margin-top:10px;
   display: flex;
   font-size: 10px;
 }
 .bottomi {
   color:#2693ff;
 }
-
-
+#pip{
+  width: 16px; height: 16px;
+  margin: auto 0;
+  color: #bcc4cc;
+}
+#two{
+  margin-top: -2px;margin-left: -10px;
+  color: #bcc4cc;
+}
 
 
 /*75em media querry*/
